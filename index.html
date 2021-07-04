@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Очеретяный Олег</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -24,23 +24,23 @@
       </a>
 
       <ul class="site-nav">
-        <li>
-          <a href="./" class="nav-link link-current">Студия</a>
+        <li class="nav-link">
+          <a href="./" class="link-current">Студия</a>
         </li>
-        <li>
-          <a href="./portfolio.html" class="nav-link">Портфолио</a>
+        <li class="nav-link">
+          <a href="./portfolio.html" class="">Портфолио</a>
         </li>
-        <li>
-          <a href="./" class="nav-link"> Контакты</a>
+        <li class="nav-link">
+          <a href="./" class=""> Контакты</a>
         </li>
       </ul>
 
       <ul class="contact-nav">
-        <li>
-          <a href="mailto:info@devstudio.com" class="nav-link-contact">info@devstudio.com</a>
+        <li class="nav-link-contact">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-          <a href="tel:+380961111111" class="nav-link-contact">+38 096 111 11 11</a>
+        <li class="nav-link-contact">
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </nav>
@@ -54,50 +54,53 @@
       </section>
 
       <!--ABOUT-->
-      <section>
+      <div class="container">
+      <section class="container-section">
         <h2 hidden>О нас</h2>
-        <ul>
-          <li>
+        <ul class="about">
+          <li class="item">
             <h3 class="about-title">Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="about-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="about-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="about-title">Современные технологии</h3>
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
+      </div>
 
-      <section>
+      <div class="container">
+      <section class="container-section">
         <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="works">
+          <li class="item">
             <img
               src="./images/about/tablet-on-the-table.jpg"
               alt="работающий планшет на столе"
               width="370"
             />
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/about/work-on-the-laptop-and-phone.jpg"
               alt="работа на ноутбуке и телефоне"
               width="370"
             />
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/about/colors-on-the-tablet.jpg"
               alt="цветная палитра на планшете"
@@ -106,44 +109,46 @@
           </li>
         </ul>
       </section>
+      </div>
 
       <!--TEAM-->
-      <section class="team-section">
+
+      <section class="team-section container-section">
         <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/team/ihor.jpg" alt="Игорь Демьяненко" width="270" />
+        <ul class="team-list">
+          <li class="item team-card">
+            <img src="./images/team/ihor.jpg" class="item-img" alt="Игорь Демьяненко" width="270" />
             <h3 class="name">Игорь Демьяненко</h3>
             <p lang="en" class="manager-desc">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/team/olha.jpg" alt="Ольга Репина" width="270" />
+          <li class="item team-card">
+            <img src="./images/team/olha.jpg" class="item-img" alt="Ольга Репина" width="270" />
             <h3 class="name">Ольга Репина</h3>
             <p lang="en" class="manager-desc">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/team/nikolay.jpg" alt="Николай Тарасов" width="270" />
+          <li class="item team-card">
+            <img src="./images/team/nikolay.jpg" class="item-img" alt="Николай Тарасов" width="270" />
             <h3 class="name">Николай Тарасов</h3>
             <p lang="en" class="manager-desc">Marketing</p>
           </li>
-          <li>
-            <img src="./images/team/michael.jpg" alt="Михаил Ермаков" width="270" />
+          <li class="item team-card">
+            <img src="./images/team/michael.jpg" class="item-img" alt="Михаил Ермаков" width="270" />
             <h3 class="name">Михаил Ермаков</h3>
             <p lang="en" class="manager-desc">UI Designer</p>
           </li>
         </ul>
       </section>
+ 
     </main>
 
     <!--FOOTER-->
     <footer class="footer-page">
-      <a href="./" class="page-logo">
-        <span class="first-half-logo">Web</span><span class="second-half-logo">Studio</span>
-      </a>
-
       <address class="footer-adress">
-        <ul class="">
-          <li class="">
+        <a href="./" class="page-logo">
+          <span class="first-half-logo">Web</span><span class="second-half-logo">Studio</span>
+        </a>
+        <ul class="footer-text-adress">
+          <li>
             <a
               href="https://goo.gl/maps/CdUpNPRb44qNXqT29"
               target="_blank"
