@@ -163,6 +163,8 @@ button {
 .portfolio-button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 4px;
 }
 
 .portfolio-button {
@@ -170,6 +172,15 @@ button {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border: solid 1px;
+  background-color: var(--secondary-background);
+  border-color: var(--secondary-background);
+  border-radius: 4px;
+}
+
+.portfolio-nav-item:not(:last-child) {
+margin-right: 8px;
 }
 
 /* ЗНАЧЕНИЯ ОСНОВНЫХ СЕКЦИЙ */
@@ -255,11 +266,32 @@ margin-bottom: 10px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 20px 24px 4px 24px;
 }
 
 .case-description {
     font-size: 16px;
     line-height: 1.87;
+    margin: 0px 24px 20px 24px;
+}
+
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-works {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -30px;
+      margin-top: -50px;
+}
+
+.portfolio-item {
+border-bottom: solid 1px #EEEEEE;
+border-left: solid 1px #EEEEEE;
+border-right: solid 1px #EEEEEE;;
 }
 
 /* ЗНАЧЕНИЯ ФУТЕРА */
