@@ -1,0 +1,219 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+/* ОСНОВНЫЕ ЗНАЧЕНИЯ */
+
+:root {
+  --text-color: #757575;
+  --secondary-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-background: #f5f4fa;
+  --logo-font: 'Raleway', sans-serif;
+  --button-color: #2196f3;
+  --main-font: 'Roboto', sans-serif;
+  --footer-backround: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--secondary-color)
+  background-color: var(--white-color);
+}
+
+/* ЗНАЧЕНИЯ ХЭДЕРА */
+
+.page-logo {
+  height: 31px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.first-half-logo {
+  color: #2196f3;
+}
+
+.second-half-logo {
+  color: var(--white-color);
+}
+
+.site-nav,
+.contact-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+  color: var(--accent-color);
+}
+
+/* ЗНАЧЕНИЯ КНОПОК */
+
+.button-primary {
+  font-family: inherit;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+button {
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+/* ЗНАЧЕНИЯ ОСНОВНЫХ СЕКЦИЙ */
+
+.hero {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--secondary-background);
+}
+
+.hero-title {
+  font-size: 44px;
+line-height: 60px;
+}
+
+.team-section {
+  background-color: var(--secondary-background);
+}
+
+.name {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+.manager-desc {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.title-case {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.case-description {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/* ЗНАЧЕНИЯ ФУТЕРА */
+
+.footer-page {
+  color: var(--white-color);
+  background-color: var(--footer-backround);
+}
+
+.footer-adress {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  color: var(--white-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/* ЗНАЧЕНИЯ ЭЛЕМЕНТОВ */
+
+.link-current {
+  color: var(--accent-color);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+h3.about-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+    color: inherit;
+}
+
+p {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+li {
+  list-style-type: none;
+}
