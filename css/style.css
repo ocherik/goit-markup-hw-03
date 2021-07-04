@@ -107,6 +107,21 @@ body {
   color: var(--accent-color);
 }
 
+.nav-link-contact {
+    font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link-contact:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-link-contact:hover,
+.nav-link-contact:focus {
+    color: var(--accent-color);
+}
+
 .contact-nav {
   font-weight: 500;
   font-size: 14px;
