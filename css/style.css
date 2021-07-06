@@ -48,6 +48,7 @@ body {
   font-size: 14px;
   color: var(--secondary-color)
   background-color: var(--white-color);
+  margin: 0px 0px;
 }
 
 /* ЗНАЧЕНИЯ ХЭДЕРА */
@@ -208,7 +209,6 @@ line-height: 60px;
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
-  margin-bottom: -94px;
 }
 
 .item {
@@ -235,12 +235,11 @@ flex-basis: calc((100% - 120px) / 4);
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-top: -50px;
     justify-content: center;
 }
 
 .container-section {
-  padding: 94px 0px;
+  padding-top: 94px;
 }
 
 .team-card {
@@ -320,7 +319,6 @@ margin-bottom: 10px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-left: 215px;
 }
 
 .footer-text-adress {
